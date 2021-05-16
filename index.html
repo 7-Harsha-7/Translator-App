@@ -5,8 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Banana Speak</title>
+    <!-- <script src="app.js" type="text/javascript"></script> -->
+    <style>
+        textarea{
+            display: block;
+            margin: 1rem;
+            width: 40%;
+            padding: 0.5rem;
+
+        }
+
+        button {
+            margin-left: 1rem;;
+        }
+
+        #output {
+            border: 1px solid black;
+            height: 22vh;
+            width: 40%;
+            padding: 0.5rem;
+            margin: 1rem;
+        }
+
+        #op {
+            margin-left: 1rem;
+        }
+
+    
+    </style>
+
 </head>
 <body>
     <h1>talk bananaaaa</h1>
+    <textarea placeholder="Enter in English" id="txt" cols="30" rows="10"></textarea>
+    <button id="btn">Translate</button> <br> <br> <br>
+    <div id="op" style="font-size: larger;">Output is here👇</div>
+    <div id="output" ></div>
+    <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
