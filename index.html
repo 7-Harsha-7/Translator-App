@@ -41,7 +41,7 @@
             appearance: auto;
             background-color: #F2C94C;
             margin-top: 1rem;
-            margin-left: 28.5rem;
+            margin-left: 28.45rem;
             box-sizing: border-box;
             height: 7vh;
             font-size: large;
@@ -55,6 +55,12 @@
                       
             /* margin: auto; */
         }
+
+        
+            #btn:hover{
+              opacity:0.9 ;
+            }
+        
 
         #output {
             border: 1.5px solid black;
@@ -74,7 +80,7 @@
 
         #op {
             margin-top: 0.9rem;
-            margin-left: 28.5rem;
+            margin-left: 28.55rem;
             margin-bottom: 0.3rem;
             
             /* text-align: center; */
@@ -112,7 +118,9 @@
         background-color: #F2C94C;
         font-size: 40px;
         margin: auto;
-        padding: 0rem;
+        padding: 2.5rem;
+        height: 21vh;
+        display: flex;
     }
 
     nav {
@@ -138,7 +146,9 @@
      }
 
     img {
-        margin-left: 1000px;
+        margin-left: 1100px;
+        padding: -1.5rem;
+        height: 13vh;
         
     }
     
@@ -151,19 +161,22 @@
         background-color:#F2C94C ;
         padding: 2rem 1rem;
         text-align: center;
-        color: white;
-        border-top-right-radius: 1rem;
+        color:black;
+        /* border-top-right-radius: 1rem; */
+
     }
     .footer .link {
         color: white;
     }
 
     .footer ul {
+        
         padding-inline-start: 0px;
     }
 
     .footer .footer-header{
-        font-weight: bold;
+        padding: 0.5;
+        font-weight: bolder ;
         color: black;
         font-size: large;
     }
@@ -185,6 +198,7 @@
         text-align: center;
         text-decoration: none;
         border-radius: 50%;
+        text-decoration: none;
     }
     .fa:hover {
         opacity: 0.7;
@@ -194,24 +208,55 @@
         color: white;
     }
 
-    .fa-linkedin {
-        background:#2867B2;
+    .fa-twitter {
+        background: black;
         color: white;
+        text-decoration: none;
+        
     }
 
     .fa-instagram {
-        background: #C13584;
+        background: black;
         color: white;
+        text-decoration: none;
+     
     }
 
     .fa-github{ 
         background: black;
         color: white;
+        text-decoration: none;
+       
     }
+
+    .link {
+        text-decoration: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    nav{
+        height: 20vh;
+    }
+
+    #wrapper{
+        position: relative;
+        width: fit-content;
+        margin: 0 auto;
+        
+    
+    
+
+    }
+
+
     </style>
 </head>
 
 <body>
+    <div id="wrapper"> 
     <nav>
         <div id="heading">
             <h1><strong>banana talk</strong>
@@ -220,7 +265,7 @@
        
         </div>
     </nav>
-    <main>
+    <main style="float: center">
         
             <div class="content">
             <textarea placeholder="Tap to enter text" spellcheck="false" id="txt" cols="30" rows="6"></textarea>
@@ -233,14 +278,25 @@
     <br> <br>
     <br> <br>
     <footer class="footer">
+        <h2><strong> about</strong></h2>
+        <p>Are you a fan of minions? Did you know that the gibberish they say is an actual language. <br> Use the translator to convert your text from English to Minion speak or  Banana  language.</p>
+        
+
+
+
+
+
+
+
         <div class="footer-header" style="float:center">My Social Handles</div>
         <br>
         <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link fa fa-github" href="/"></a></li>
-            <li class="list-item-inline"><a class="link fa fa-linkedin" href="/"></a></li>
-            <li class="list-item-inline"><a class="link fa fa-instagram" href="/"></a></li>
+            <li class="list-item-inline"> <a class="link fa fa-github" href="https://www.github.com/7-harsha-7"></a> </li>
+            <li class="list-item-inline"><a class="link fa fa-twitter" href="https://www.twitter.com/Harsha73283610"></a></li>
+            <li class="list-item-inline"><a class="link fa fa-instagram" href="https://www.instagram.com/7_harsha_7/"></a></li>
         </ul>
     </footer>
+</div>
     
         
     
